@@ -1,7 +1,7 @@
-alternate = "Gabriela"
+alternate = "Kent Beck"
 stuff = "Hello Ruby Programmer!"
 
-def say_hello(stuff = "Hello Ruby Programmer!", alternate = "Gabriela")
+def say_hello(stuff = "Hello Ruby Programmer!", alternate)
   puts "Hello " + alternate + "!"
 end
 
