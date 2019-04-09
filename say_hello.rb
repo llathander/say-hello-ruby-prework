@@ -1,3 +1,5 @@
+alterate = "Gabriela"
+
 def say_hello(stuff = "Hello Ruby Programmer!", alternate = "Gabriela")
   puts "Hello " + alternate + "!"
 end
