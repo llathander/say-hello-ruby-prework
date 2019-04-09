@@ -1,10 +1,7 @@
-alternate = "Kent Beck"
-stuff = "Hello Ruby Programmer!"
-
-def say_hello(stuff ="Hello Ruby Programmer!", alternate)
-  puts "Hello " + alternate + "!"
+def say_hello(name)
+puts "Hello Kent Beck"
 end
 
-say_hello(alternate)
-say_hello(stuff)
-  
+ def say_hello(name="Ruby Programmer!")
+  puts ("Hello #{name}!")
+end 
