@@ -1,7 +1,7 @@
 alternate = "Kent Beck"
 stuff = "Hello Ruby Programmer!"
 
-def say_hello("Hello Ruby Programmer!", alternate)
+def say_hello(stuff ="Hello Ruby Programmer!", alternate)
   puts "Hello " + alternate + "!"
 end
 
