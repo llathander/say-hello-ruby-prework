@@ -6,4 +6,4 @@ end
   puts ("Hello #{name}!")
 end 
 
-say_hello()
+say_hello("Kent Beck")
